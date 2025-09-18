@@ -161,6 +161,10 @@ h3{
         width: 150px;
         margin: 0px;
         padding: 0px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        
+
   }
   .text{
         font-size: 0.7rem;
@@ -171,7 +175,7 @@ h3{
        
     }
     .text p{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .dark{
         width:190px;
@@ -179,6 +183,7 @@ h3{
     }
     .light{
         width: 190px;
+        margin-bottom: 30px;
         
     }
     svg{
