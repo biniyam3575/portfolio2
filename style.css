@@ -153,6 +153,10 @@ h3{
     }
 }
 @media(max-width:420px){
+    .container{
+        height: 89vh;
+        margin: 5px;
+    }
     .middle-container img{
         height:150px;
         width: 150px;
@@ -177,3 +181,4 @@ h3{
     }
 
 }
+
