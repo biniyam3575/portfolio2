@@ -154,11 +154,10 @@ h3{
 }
 @media(max-width:420px){
     .container{
-        height: 89vh;
         margin: 5px;
     }
     .middle-container img{
-        height:150px;
+        height:160px;
         width: 150px;
         margin: 0px;
         padding: 0px;
@@ -167,7 +166,12 @@ h3{
         font-size: 0.7rem;
         text-align: center;
         margin-right: 0px;
+        max-width: 200px;
        
+       
+    }
+    .text p{
+        margin-bottom: 30px;
     }
     .dark{
         width:190px;
@@ -175,10 +179,10 @@ h3{
     }
     .light{
         width: 190px;
+        
     }
     svg{
         height: 16px;
     }
 
 }
-
