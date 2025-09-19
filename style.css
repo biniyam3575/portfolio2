@@ -206,7 +206,7 @@ h3{
 @media(max-width:420px){
     .container{
         margin: 5px;
-        height: 100vh;
+        
     }
     .middle-container img{
         height:160px;
