@@ -226,7 +226,7 @@ h3{
         width: 150px;
         margin: 0px;
         padding: 0px;
-        margin-top: 60px;
+        margin-top: 10px;
         margin-bottom: 20px;
         
 
@@ -262,11 +262,11 @@ h3{
     }
     .skill p{
         font-size: 0.6rem;
-        margin-bottom: 30px;
+        
     }
     .middle h1{
         font-size: 0.99rem;
-        margin-bottom: 30px;
+        
     }
 
     
