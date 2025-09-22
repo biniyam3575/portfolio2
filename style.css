@@ -216,17 +216,15 @@ h3{
 }
 @media(max-width:420px){
     .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 100vh;
+        margin: 5px;
+        height: 86vh;
     }
     .middle-container img{
         height:160px;
         width: 150px;
         margin: 0px;
         padding: 0px;
-        margin-top: 10px;
+        margin-top: 60px;
         margin-bottom: 20px;
         
 
@@ -262,11 +260,19 @@ h3{
     }
     .skill p{
         font-size: 0.6rem;
-        
+        margin-bottom: 40px;
     }
     .middle h1{
         font-size: 0.99rem;
-        
+        margin-bottom: 40px;
+    }
+    .contacts{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .projects{
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     
