@@ -137,6 +137,7 @@ h3{
     .container{
         padding: 20px;
         margin: 20px;
+        height: 86vh;
     }
     .nav-links {
     display: none;
@@ -182,6 +183,12 @@ h3{
     align-items: center;
     justify-content: space-evenly;
   }
+  .skill img{
+    height: 160px;
+  }
+  .skill p{
+    font-size: 0.8rem;
+  }
 }
 @media(max-width:1000px) and (min-width:780px){
     nav img{
@@ -191,6 +198,7 @@ h3{
     .container{
         padding: 40px;
         margin: 20px;
+        height: 79vh;
     }
     .text{
         font-size: 0.9rem;
@@ -202,10 +210,14 @@ h3{
     .text p{
         margin-bottom: 30px;
     }
+    .skill img{
+        height: 180px;
+    }
 }
 @media(max-width:420px){
     .container{
         margin: 5px;
+        height: 85vh;
         
     }
     .middle-container img{
@@ -239,6 +251,20 @@ h3{
     }
     svg{
         height: 16px;
+    }
+    .skill img{
+        height: 100px;
+        width: 120px;
+    }
+    .skill{
+        display: block;
+        align-items: center;
+    }
+    .skill p{
+        font-size: 0.6rem;
+    }
+    .middle h1{
+        font-size: 0.99rem;
     }
 
     
