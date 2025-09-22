@@ -216,9 +216,10 @@ h3{
 }
 @media(max-width:420px){
     .container{
-        margin: 5px;
-        height: 85vh;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
     }
     .middle-container img{
         height:160px;
@@ -233,9 +234,8 @@ h3{
   .text{
         font-size: 0.7rem;
         text-align: center;
-        margin-right: 0px;
+        margin: 0px;
         max-width: 240px;
-       
        
     }
     .text p{
@@ -262,9 +262,11 @@ h3{
     }
     .skill p{
         font-size: 0.6rem;
+        margin-bottom: 30px;
     }
     .middle h1{
         font-size: 0.99rem;
+        margin-bottom: 30px;
     }
 
     
